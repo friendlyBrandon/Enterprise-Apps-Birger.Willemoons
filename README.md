@@ -1,6 +1,16 @@
 # Installation guide :wrench: :
 
-- Enter the  Enterprise-Apps-Birger.Willemoons folder and input: "mvn spring-boot:run" to start the project.
+- Open CMD (command prompt)
+
+- git clone https://github.com/friendlyBrandon/Enterprise-Apps-Birger.Willemoons.git
+
+- cd Enterprise-Apps-Birger.Willemoons
+
+- mvn clean install
+
+- mvn spring-boot:run
+
+Now open your browser and use "http://localhost:8080" as the link to connect to the local NGO site.
 
 # Sources :link: :
 
