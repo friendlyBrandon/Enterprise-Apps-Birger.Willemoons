@@ -1,6 +1,6 @@
 # Installation guide :wrench: :
 
-- Open Enterprise Application folder, then src, main, java. Then open cmd in the folder and input: "mvn spring-boot:run" to start the project.
+- Enter the  Enterprise-Apps-Birger.Willemoons folder and input: "mvn spring-boot:run" to start the project.
 
 # Sources :link: :
 
@@ -15,15 +15,11 @@
  - Java 21
  ## Frameworks
  - Spring Boot 3.5.0
- - Spring MVC
  - Spring Data JPA
  - Spring Validation
- - Template Engine
  - Thymeleaf
  ## Database
  - H2 Database
- ## ORM
- - Hibernate
  ## Web Server
  - Embedded Apache Tomcat
  ## Mailing
@@ -35,10 +31,8 @@
  - Mockito
  - AssertJ
  - Spring Test
- ## Persistence Standards
- - Jakarta Persistence (JPA)
- ## Validation Standards
- - Jakarta Validation
+ ## Persistence
+ - Hibernate
  ## Build Tools
  - Maven
  - Spring Boot Maven Plugin
