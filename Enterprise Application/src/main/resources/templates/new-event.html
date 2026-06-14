@@ -1,0 +1,50 @@
+<form action="/events/new" method="post">
+
+    <input
+            type="text"
+            name="title"
+            placeholder="Titel">
+
+    <br><br>
+
+    <input
+            type="datetime-local"
+            name="eventTime">
+
+    <br><br>
+
+    <textarea
+            name="description">
+    </textarea>
+
+    <br><br>
+
+    <input
+            type="text"
+            name="organisation">
+
+    <br><br>
+
+    <input
+            type="email"
+            name="contactEmail">
+
+    <br><br>
+
+    <select name="locationId">
+
+        <option
+                th:each="location : ${locations}"
+                th:value="${location.id}"
+                th:text="${location.name}">
+        </option>
+
+    </select>
+
+    <br><br>
+
+    <button type="submit">
+        Opslaan
+    </button>
+
+</form>

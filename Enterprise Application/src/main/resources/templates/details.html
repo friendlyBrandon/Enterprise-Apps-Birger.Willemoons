@@ -1,0 +1,28 @@
+<h1 th:text="${event.title}"></h1>
+
+<p>
+    <b>Tijdstip:</b>
+    <span th:text="${event.eventTime}"></span>
+</p>
+
+<p>
+    <b>Omschrijving:</b>
+    <span th:text="${event.description}"></span>
+</p>
+
+<p>
+    <b>Organisatie:</b>
+    <span th:text="${event.organisation}"></span>
+</p>
+
+<p>
+    <b>Contact:</b>
+    <span th:text="${event.contactEmail}"></span>
+</p>
+
+<p>
+    <b>Locatie:</b>
+    <span th:text="${event.location.name}"></span>
+</p>
+
+<a href="/">Terug</a>

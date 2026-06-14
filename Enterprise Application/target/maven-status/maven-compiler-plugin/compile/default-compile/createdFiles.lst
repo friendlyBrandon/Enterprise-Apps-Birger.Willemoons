@@ -1,0 +1,8 @@
+Enterprise_Application\demo\model\Event.class
+Enterprise_Application\demo\repository\EventRepo.class
+Enterprise_Application\demo\service\EventService.class
+Enterprise_Application\demo\repository\LocationRepo.class
+Enterprise_Application\demo\config\DataSeeder.class
+Enterprise_Application\demo\model\Location.class
+Enterprise_Application\demo\controller\EventController.class
+Enterprise_Application\demo\DemoApplication.class
