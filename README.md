@@ -1,6 +1,6 @@
 # Installation guide :wrench: :
 
-- Open Enterprise Application folder, open cmd in the folder and input: "mvn spring-boot:run"
+- Open Enterprise Application folder, then src, main, java. Then open cmd in the folder and input: "mvn spring-boot:run" to start the project.
 
 # Sources :link: :
 
@@ -26,6 +26,8 @@
  - Hibernate
  ## Web Server
  - Embedded Apache Tomcat
+ ## Mailing
+ - Spring Boot Starter Mail
  ## JSON
  - Jackson
  ## Testing

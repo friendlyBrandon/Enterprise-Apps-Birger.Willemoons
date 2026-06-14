@@ -6,3 +6,5 @@ Enterprise_Application\demo\config\DataSeeder.class
 Enterprise_Application\demo\model\Location.class
 Enterprise_Application\demo\controller\EventController.class
 Enterprise_Application\demo\DemoApplication.class
+Enterprise_Application\demo\service\EmailService.class
+Enterprise_Application\demo\controller\ContactUsController.class
