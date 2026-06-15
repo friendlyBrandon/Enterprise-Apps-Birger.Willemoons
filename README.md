@@ -4,7 +4,7 @@
 
 - git clone https://github.com/friendlyBrandon/Enterprise-Apps-Birger.Willemoons.git
 
-- cd Enterprise-Apps-Birger.Willemoons
+- cd Enterprise-Apps-Birger.Willemoons\Enterprise-Apps-Birger.Willemoons
 
 - mvn clean install
 
